@@ -1,0 +1,7 @@
+{
+  "name": "private-vip-payments",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API de pagamentos InfinitePay para o PRIVATE VIP",
+  "engines": { "node": ">=20" }
+}
