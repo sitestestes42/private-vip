@@ -1,7 +1,8 @@
 const PLANS = {
   basic: { name: "VIP BASIC", amount: 990, roleName: "VIP BASIC" },
-  plus:  { name: "VIP PLUS",  amount: 2490, roleName: "VIP PLUS" },
-  black: { name: "VIP BLACK", amount: 3990, roleName: "VIP BLACK" }
+  plus:  { name: "VIP PLUS", amount: 2490, roleName: "VIP PLUS" },
+  black: { name: "VIP BLACK", amount: 3990, roleName: "VIP BLACK" },
+  teste: { name: "VIP TESTE", amount: 100, roleName: "VIP TESTE" }
 };
 
 function json(res, status, body) {
