@@ -33,7 +33,6 @@ module.exports = async function handler(req, res) {
 
   try {
     const payload = {
-      handle: process.env.INFINITEPAY_HANDLE,
       order_nsu: orderNsu,
       webhook_url: `${process.env.APP_URL}/api/webhook`,
       redirect_url: `${process.env.APP_URL}/`,
